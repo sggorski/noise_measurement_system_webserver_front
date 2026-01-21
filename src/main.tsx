@@ -8,10 +8,10 @@ import "./css/index.css";
 const cognitoAuthConfig = {
   authority: "https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_Tb65z7qEV",
   client_id: "70bjsk5urnr8c71at6o4o66ccg",
-  redirect_uri: "http://localhost:5173/",
+  redirect_uri: "https://main.d3i7a80okmdymt.amplifyapp.com",
   response_type: "code",
   scope: "email openid phone",
-  post_logout_redirect_uri: "https://main.d3i7a80okmdymt.amplifyapp.com/"
+  post_logout_redirect_uri: "https://main.d3i7a80okmdymt.amplifyapp.com"
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
