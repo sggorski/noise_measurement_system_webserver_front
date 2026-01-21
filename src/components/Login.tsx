@@ -6,7 +6,7 @@ function Login() {
     const signOutRedirect = () => {
         auth.removeUser();
         const clientId = "70bjsk5urnr8c71at6o4o66ccg";
-        const logoutUri = "http://localhost:5173/";
+        const logoutUri = "https://main.d3i7a80okmdymt.amplifyapp.com/";
         const cognitoDomain = "https://eu-north-1tb65z7qev.auth.eu-north-1.amazoncognito.com";
         window.location.href = `${cognitoDomain}/logout?client_id=${clientId}&logout_uri=${encodeURIComponent(logoutUri)}`;
     };
